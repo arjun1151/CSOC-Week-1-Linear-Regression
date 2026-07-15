@@ -14,8 +14,9 @@ Implemented Linear Regression models from scratch and compared implementations w
 
 ```
 .
-├── data/Melbourne_Housing_Price_Dataset                 
-├── notebooks/CSOC_Week_1   
+├── data/melb_data.csv                 
+├── model/CSOC_Week_1.ipynb
+├── CSOC_LaTeX_Submission.pdf   
 └── README.md
 ```
 
