@@ -3,7 +3,7 @@ Implemented Linear Regression models from scratch and compared implementations w
 
 ## Features
 
-- Linear Regression (with and without NumPy)
+- Linear Regression 
 - Gradient Descent
 - Train-test split
 - Model evaluation using regression metrics
@@ -39,16 +39,18 @@ The model is evaluated using:
 - R² Score
 
 ## Results
+Without Vectorized Implementation:
+- RMSE value : **541749.59**
+- Mean Absolute Error : **350956.30**
+- R2 Score : **0.407**
+- Training time : **431.527** seconds
 
-RMSE value achieved with loop implementation is: **541749.59**
-Mean Absolute Error acheived with loop implementation is: **350956.30**
-R2 Score achieved with loop implementation is: **0.407**
-Training time for loop implementation is **431.527** seconds
+With Vectorized Implementation:
 
-Training time for vectorized implementation is: **1.995** seconds
-RMSE value achieved with vectorized implementation is: **472480.67**
-Mean Absolute Error achieved with vectorized implementation is: **340134.53**
-R2 Score achieved with vectorized implementation is: **0.424**
+- Training time: **1.995** seconds
+- RMSE value : **472480.67**
+- Mean Absolute Error : **340134.53**
+- R2 Score : **0.424**
 
 ## Future Improvement
 
@@ -67,6 +69,6 @@ Clone the repository
 
 ```bash
 git clone https://github.com/arjun1151/CSOC-Week-1-Linear-Regression.git
-cd <repository>
+cd CSOC-Week-1-Linear-Regression
 ```
 
